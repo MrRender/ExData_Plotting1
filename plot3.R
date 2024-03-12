@@ -19,7 +19,7 @@ axis(1, at = c(1, nrow(subset_data)/2, nrow(subset_data)), labels = c("Thu", "Fr
 legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col = c("black", "red", "blue"), lty = 1)
 
 # Save the plot as a PNG file
-png("plot3.png", width = 480, height = 480, units = "px", res = 300)
+png("plot3.png", width = 480, height = 480, units = "px")
 
 # Plot the data without the default x-axis and reduce margins
 par(mar = c(4, 4, 2, 1))  # Adjust margins (bottom, left, top, right)
